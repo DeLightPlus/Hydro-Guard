@@ -1,0 +1,117 @@
+main
+{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.header
+{
+    width: 97%;
+    height: 64px;
+    background: #3fac9e;
+    color: white;
+    padding: 16px;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav
+{
+    display: flex;
+}
+
+.container
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.sidebar
+ {
+    width: 200px;
+    background: #f4f4f4;
+    color: black;
+    padding: 15px;
+    height: 100vh;
+    /* position: fixed; */
+}
+
+.sidebar ul
+{
+    width: 100%;
+}
+
+
+.sidebar li
+{
+   text-align: start;
+   display: block;
+   padding: 10px;
+   border-bottom:  1px solid black;
+
+}
+
+.sidebar li:hover
+{
+    background: #3fac9e;
+    color: #f4f4f4;
+    font-size:large;
+}
+
+.dash-container
+{
+    display: flex;
+}
+
+.dash-container .dashboard
+{
+    flex: 1;
+    display: flex;
+}
+
+.dash-container .dashboard .metrics
+{    
+    display: flex;
+    flex-direction: row;
+
+    gap:10px;
+}
+    
+.card
+{
+ border: 1px solid #ccc;
+ border-radius: 2px;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #fff;
+    color: #1d4e49;
+}
+
+.trends
+{
+    width: 100%;
+    display: flex;
+justify-content: space-around;
+    align-items: center;
+    
+}
+
+.graph
+{
+    background: #9fe7de;
+    width: 500px;
+    height: 256px;
+}
+
+.graph#rad
+{
+    background: #9fe7de;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+
